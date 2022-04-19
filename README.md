@@ -1,2 +1,6 @@
 # A-B-testing
-A A/B testing Python project amis to help the modern marketer make easy decisions about the /B testing result.
+An A/B testing Python project aims to help the modern marketer make easy decisions about the /B testing result.
+
+Now, A/B testing is playing an important role in modern business world. A/B testing, also known as split testing, is now widely used in marketing experiment wherein you split your audience to test a number of variations of a campaign and determine which performs betters. But since, correlation does not equal to causation, you cannot decide the testing winner by just simply comparing the magnitude conversion rates. In my project, I’d like to design a python package which will use statistical tools to help the modern marketer decide the testing winner in a more scientific way.
+
+Sample user case: A company is landing a new landing page. There are two type of call-to-action buttons, and the marketing team cannot dicide which one to choose. Thus, they decide to implement a A/B testing to see which button leads a higher conversion. Because they cannot simply make judgement about the testing winner based on the magnitiude of the data, they can use my package to review the testing data and implement the hypothesis testing to decide the testing winner in a more scientific way. 
