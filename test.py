@@ -8,7 +8,9 @@ from review import split_data
 from review import cleaned_dataset_info
 
 
-data = pd.read_csv('ab_test.csv', parse_dates=['time'])
+data = pd.read_csv('ab_data.csv')
+#changing the different dataframe's column name into the same format
+data = data.rename({'user_id': 'id', 'timestamp': 'time', 'group': 'con_treat', 'landing_page': 'page'}, axis='columns')
 
 def main():
     starter = int(input("Enter 1 to start the A/B testing result analysis: "))
